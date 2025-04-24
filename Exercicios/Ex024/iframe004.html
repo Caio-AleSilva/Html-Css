@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segurança iframes</title>
+</head>
+<body>
+    <h1>Meu site principal</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quo autem, nisi iusto provident a labore harum reiciendis nam placeat laudantium, eveniet, repellendus amet laboriosam omnis at alias consectetur. In.</p>
+
+
+    <!--Comando sandbox é para limitar o uso do iframe, sem ele qualquer um pode usar
+        Comando referrerpolicy - não irá dentro do iframe coletar nenhuma informação do usuario. 
+    -->
+    <iframe src="paginas-extras/pagina004.html" sandbox="sandbox" referrerpolicy="no-referrer">
+        Seu navegador nao é compatível com isso. 
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem magni veniam expedita eius qui? Atque commodi perspiciatis natus velit eligendi quis recusandae enim! Hic a id magni placeat, accusamus perspiciatis!</p>
+</body>
+</html>
